@@ -5,8 +5,12 @@ I found it easy, readable and fast.
 
 # Files
 
-Marco-SuperSimpleStocks.ipynb --> Jupyter/Python version   
+Marco-SuperSimpleStocks.ipynb
+Jupyter/Python interactive version of superSimpleStock
+
 SuperSimpleStocks.py  --> Python version
+testit.py --> Testing code for SuperSimpleStocks.py
+scomuetup.py --> Should install all requirements for SuperSimpleStocks.py
 
 # DataFrame:
 
@@ -18,9 +22,10 @@ StockData [ Stock Symbol, Type, Last Dividend, Fixed Dividend, Par Value,Ticker 
 2) Trade : Record a transactions about every stock
 Trade  [Timestamp, Stock Symbol, Quantity, Buy/Sell, Price]
 
-In my research about financial languages:
+# About financial languages:
 Ticker Price = the last know price of a Stock
-
+Dividend is usual referred to Last Dividend
+p = price
 
 # Functions:
 
@@ -41,4 +46,3 @@ Calculated Geometric Mean using provided formulas
 
 CalculateGBCE()
 Calculated GBCE using provided formulas for each stocks and return a dictionary
-{ Symbol : }
