@@ -129,7 +129,6 @@ def testIT():
     Trade = pd.read_csv("TradeData.csv").fillna(0);
     Trade.set_index(['Stock Symbol','Timestamp']);
 
-
     TimeStamp = calendar.timegm(time.gmtime())
     addTrade(TimeStamp,'TEA',20,'Buy',20);
     # Last divident = 0
@@ -155,12 +154,12 @@ def testIT():
     addTrade(TimeStamp,'GIN',20,'Buy',20);
     addTrade(TimeStamp,'GIN',20,'Buy',20);
     addTrade(TimeStamp,'GIN',20,'Buy',20);
-    assert round(CalculateStockPrice('GIN'),3) == 38.182
+    assert round(CalculateStockPrice('GIN'),3) == 20.0
 
     # Calculate GBCE
     GBCE = CalculateGBCE()
     assert round(GBCE['ALE'],3) == 155.0
-    assert round(GBCE['GIN'],3) == 22.708
+    assert round(GBCE['GIN'],3) == 20.0
     assert round(GBCE['JOE'],3) == 126.0
     assert round(GBCE['POP'],3) == 105.0
     assert round(GBCE['TEA'],3) == 60.909
