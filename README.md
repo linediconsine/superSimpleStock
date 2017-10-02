@@ -8,7 +8,7 @@ I found it easy, readable and fast.
 Marco-SuperSimpleStocks.ipynb
 Jupyter/Python interactive version of superSimpleStock
 
-SuperSimpleStocks.py  --> Python version
+superSimpleStocks.py  --> Python version
 testit.py --> Testing code for SuperSimpleStocks.py
 scomuetup.py --> Should install all requirements for SuperSimpleStocks.py
 
