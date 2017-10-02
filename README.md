@@ -1,17 +1,22 @@
 # superSimpleStock
 
-I used Pandas library to structure this exercize,
-I found it easy, readable and fast.
+I used Pandas library and other Data science library for develop this assignment.
 
 # Files
 
+__Jupyter/Python__
+interactive version of superSimpleStock
 
-Jupyter/Python interactive version of superSimpleStock
 https://github.com/linediconsine/superSimpleStock/blob/master/Marco-SuperSimpleStocks.ipynb
 
-superSimpleStocks.py  --> Python version
-testit.py --> Testing code for SuperSimpleStocks.py
-setup.py --> Should install all requirements for SuperSimpleStocks.py
+__uperSimpleStocks.py__
+Python version
+
+__testit.py__
+Testing code for SuperSimpleStocks.py
+
+__setup.py__ 
+Should install all requirements for SuperSimpleStocks.py
 
 # About financial languages:
 Ticker Price = the last know price of a Stock
