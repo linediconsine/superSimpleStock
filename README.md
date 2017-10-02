@@ -12,8 +12,10 @@ https://github.com/linediconsine/superSimpleStock/blob/master/Marco-SuperSimpleS
 
 __uperSimpleStocks.py__
 Python version
+
 __testit.py__
 Testing code for SuperSimpleStocks.py
+
 __setup.py__ 
 Should install all requirements for SuperSimpleStocks.py
 
