@@ -16,8 +16,6 @@
 # Importing
 import pandas as pd,datetime,calendar,time,random
 from scipy.stats.mstats import gmean
-# VISUAL
-from IPython.display import display
 
 
 # Create Dataframes:
@@ -75,7 +73,7 @@ def CalculatePEratio(Symbol):
 
 def CalculateStockPrice(Symbol):
     Time15MinAgo = calendar.timegm(time.gmtime()) - datetime.timedelta(minutes=15).total_seconds()
-    TradeLast15ms = Trade[Trade['Stock Symbol'] == Symbol][Trade['Timestamp'] > Time15MinAgo]
+    TradeLast15ms = Trade[(Trade['Stock Symbol'] == Symbol)  & (Trade['Timestamp'] > Time15MinAgo)]
     numTrade = len(TradeLast15ms)
 
     if(numTrade > 0 ):
@@ -120,6 +118,8 @@ def CalculateGBCE():
 # Simple tests
 
 def testIT():
+    print("## Tests and checking assertions,")
+    print("NOTE: If you don't see any message the assertion are verified")
     # Use clean Datasets
     StockData = pd.read_csv("StockExample.csv").fillna(0);
     StockData.set_index(['Stock Symbol']);
@@ -164,4 +164,3 @@ def testIT():
     assert round(GBCE['JOE'],3) == 126.0
     assert round(GBCE['POP'],3) == 105.0
     assert round(GBCE['TEA'],3) == 60.909
-testIT()
