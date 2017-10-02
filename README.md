@@ -1,10 +1,8 @@
 # superSimpleStock
 
-I used Pandas library to structure this exercize,
-I found it easy, readable and fast.
+I used Pandas library and other Data science library for develop this assignment.
 
 # Files
-
 
 __Jupyter/Python__
 interactive version of superSimpleStock
