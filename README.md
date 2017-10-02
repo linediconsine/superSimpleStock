@@ -13,6 +13,11 @@ superSimpleStocks.py  --> Python version
 testit.py --> Testing code for SuperSimpleStocks.py
 setup.py --> Should install all requirements for SuperSimpleStocks.py
 
+# About financial languages:
+Ticker Price = the last know price of a Stock
+Dividend is usual referred to Last Dividend
+p = price
+
 # DataFrame:
 
 I created 2 different DataFrame
@@ -22,11 +27,6 @@ StockData [ Stock Symbol, Type, Last Dividend, Fixed Dividend, Par Value,Ticker 
 
 2) Trade : Record a transactions about every stock
 Trade  [Timestamp, Stock Symbol, Quantity, Buy/Sell, Price]
-
-# About financial languages:
-Ticker Price = the last know price of a Stock
-Dividend is usual referred to Last Dividend
-p = price
 
 # Functions:
 
