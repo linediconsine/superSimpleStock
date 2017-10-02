@@ -5,12 +5,13 @@ I found it easy, readable and fast.
 
 # Files
 
-Marco-SuperSimpleStocks.ipynb
+
 Jupyter/Python interactive version of superSimpleStock
+https://github.com/linediconsine/superSimpleStock/blob/master/Marco-SuperSimpleStocks.ipynb
 
 superSimpleStocks.py  --> Python version
 testit.py --> Testing code for SuperSimpleStocks.py
-scomuetup.py --> Should install all requirements for SuperSimpleStocks.py
+setup.py --> Should install all requirements for SuperSimpleStocks.py
 
 # DataFrame:
 
