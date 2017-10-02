@@ -1,5 +1,14 @@
+# superSimpleStock
+
 I used Pandas library to structure this exercize,
 I found it easy, readable and fast.
+
+# Files
+
+Marco-SuperSimpleStocks.ipynb --> Jupyter/Python version   
+SuperSimpleStocks.py  --> Python version
+
+# DataFrame:
 
 I created 2 different DataFrame
 
@@ -13,7 +22,8 @@ In my research about financial languages:
 Ticker Price = the last know price of a Stock
 
 
-# ## Functions:
+# Functions:
+
 addTrade(TimeStamp,Symbol,Quantity,Buy_Sell,Price)
 Record a transaction
 
