@@ -6,12 +6,16 @@ I found it easy, readable and fast.
 # Files
 
 
-Jupyter/Python interactive version of superSimpleStock
+__Jupyter/Python__
+interactive version of superSimpleStock
 https://github.com/linediconsine/superSimpleStock/blob/master/Marco-SuperSimpleStocks.ipynb
 
-superSimpleStocks.py  --> Python version
-testit.py --> Testing code for SuperSimpleStocks.py
-setup.py --> Should install all requirements for SuperSimpleStocks.py
+__uperSimpleStocks.py__
+Python version
+__testit.py__
+Testing code for SuperSimpleStocks.py
+__setup.py__ 
+Should install all requirements for SuperSimpleStocks.py
 
 # About financial languages:
 Ticker Price = the last know price of a Stock
