@@ -6,6 +6,7 @@ I used Pandas library and other Data science library for develop this assignment
 
 __Jupyter/Python__
 interactive version of superSimpleStock
+
 https://github.com/linediconsine/superSimpleStock/blob/master/Marco-SuperSimpleStocks.ipynb
 
 __uperSimpleStocks.py__
