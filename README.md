@@ -34,7 +34,7 @@ StockData [ Stock Symbol, Type, Last Dividend, Fixed Dividend, Par Value,Ticker 
 Trade  [Timestamp, Stock Symbol, Quantity, Buy/Sell, Price]
 
 # Functions:
-
+```
 addTrade(TimeStamp,Symbol,Quantity,Buy_Sell,Price)
 Record a transaction
 
@@ -52,3 +52,4 @@ Calculated Geometric Mean using provided formulas
 
 CalculateGBCE()
 Calculated GBCE using provided formulas for each stocks and return a dictionary
+```
